@@ -13,3 +13,15 @@ You can create a badge like this to launch a binder environment for this repo
 [![Binder Badge](.binder/badge_logo.svg)](https://mybinder.org/v2/gh/mlatsjsu/template-repo-for-workshops/HEAD)
 
 This badge can be displayed in any markdown file or cell.
+
+Binder can also use a `requirement.txt` with pip but I prefer to use conda/mamba environment.
+
+Use the following command to generate the `environment.yml` file
+
+```sh
+conda env export --from-history -f environment.yml
+or
+mamba env export --from-history -f environment.yml
+```
+
+the `--from-history` tag will ensure only the main dependencies are listed and not the dependencies of the dependencies of the dep...........
