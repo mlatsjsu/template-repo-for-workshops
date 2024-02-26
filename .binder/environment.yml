@@ -1,0 +1,8 @@
+name: D:\Projects\template-repo-for-workshops\env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+prefix: D:\Projects\template-repo-for-workshops\env
