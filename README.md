@@ -10,6 +10,6 @@ Binder can spin up an environment with dependencies from [environment.yml](.bind
 
 You can create a badge like this to launch a binder environment for this repo
 
-[![Binder Badge](.binder/badge_logo.svg)](https://github.com/mlatsjsu/template-repo-for-workshops/HEAD)
+[![Binder Badge](.binder/badge_logo.svg)](https://mybinder.org/v2/gh/mlatsjsu/template-repo-for-workshops/HEAD)
 
 This badge can be displayed in any markdown file or cell.
