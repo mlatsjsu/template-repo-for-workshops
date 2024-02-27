@@ -5,4 +5,5 @@ dependencies:
   - python
   - numpy
   - matplotlib
+  - ipympl
 prefix: D:\Projects\template-repo-for-workshops\env
