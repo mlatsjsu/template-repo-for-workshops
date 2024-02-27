@@ -6,4 +6,5 @@ dependencies:
   - numpy
   - matplotlib
   - ipympl
+  - ffmpeg
 prefix: D:\Projects\template-repo-for-workshops\env
